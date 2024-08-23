@@ -58,7 +58,7 @@ const CartPage = () => {
               <h2 className="font-bold">${item.price.toFixed(2)}</h2>
             </div>
             <span
-              className="cursor-pointer"
+              className={`cursor-pointer ${!item ? "disabled" : ""}`}
               onClick={() => removeFromCart(item)}
             >
               X

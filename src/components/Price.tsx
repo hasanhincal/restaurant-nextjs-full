@@ -63,7 +63,7 @@ const Price = ({ product }: { product: ProductType }) => {
         {/* QUANTITY */}
         <div className="flex justify-between w-full p-3 ring-1 ring-red-500">
           <span>Quantity</span>
-          <div className="flex gap-4 items-center">
+          <div className="flex gap-4 items-center select-none">
             <button
               onClick={() => setQuantity((prev) => (prev > 1 ? prev - 1 : 1))}
             >
@@ -79,7 +79,7 @@ const Price = ({ product }: { product: ProductType }) => {
         </div>
         {/* CART BUTTON */}
         <button
-          className="uppercase w-56 bg-red-500 text-white p-3 ring-1 ring-red-500"
+          className="uppercase w-56 bg-red-500 text-white p-3 ring-1 ring-red-500 select-none"
           onClick={handleCart}
         >
           Add to Cart

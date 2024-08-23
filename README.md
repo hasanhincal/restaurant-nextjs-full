@@ -19,6 +19,7 @@ A responsive restaurant application built with Next.js, Prisma, and Stripe. This
   - `next-auth`: "^4.24.7"
   - `prisma`: "^5.18.0"
   - `react`: "^18"
+  - `react-confetti`: "^6.1.0"
   - `react-countdown`: "^2.3.6"
   - `react-dom`: "^18"
   - `react-toastify`: "^10.0.5"
