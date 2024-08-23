@@ -2,6 +2,10 @@
 
 A responsive restaurant application built with Next.js, Prisma, and Stripe. This project includes order management, responsive design, and payment functionalities.
 
+## Project Gif
+
+ <img src="screen1.gif" alt="gif" />
+
 ## Technologies Used
 
 - **Dependencies:**
@@ -39,7 +43,3 @@ A responsive restaurant application built with Next.js, Prisma, and Stripe. This
 - **Payment Integration:** Stripe integration for processing payments.
 - **Real-Time Updates:** Use of React Query for data fetching and state management.
 - **User Authentication:** Secure user authentication with NextAuth.js.
-
-## Project Gif
-
- <img src="screen1.gif" alt="gif" />
