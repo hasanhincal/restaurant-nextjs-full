@@ -1,4 +1,4 @@
-# Restaurant Project
+# Restaurant Project-fullstack
 
 A responsive restaurant application built with Next.js, Prisma, and Stripe. This project includes order management, responsive design, and payment functionalities.
 
